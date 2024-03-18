@@ -23,7 +23,7 @@ function Navbar() {
   ];
 
   const toggleMenu = () => {
-    setIsShowMenu((prev) => !prev)
+    setIsShowMenu((prev) => !prev);
   };
 
   return (
@@ -73,7 +73,11 @@ function Navbar() {
               <span>Menu</span>
               <GoTriangleDown />
             </div>
-            <div className={` transition max-h-0 overflow-hidden ${isShowMenu && 'max-h-52'}`}>
+            <div
+              className={` transition max-h-0 overflow-hidden ${
+                isShowMenu && "max-h-52"
+              }`}
+            >
               <p>Home</p>
               <p>Job Seekers</p>
               <p>Employers</p>
