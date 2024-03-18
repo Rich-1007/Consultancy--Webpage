@@ -2,6 +2,15 @@ import React, { useState } from "react";
 import { IoLogoTwitter } from "react-icons/io5";
 import { GrFacebookOption } from "react-icons/gr";
 import { FaLinkedinIn } from "react-icons/fa";
+
+
+
+
+
+
+
+
+
 import { RiInstagramLine } from "react-icons/ri";
 import { IoEarthSharp } from "react-icons/io5";
 import { GoTriangleDown } from "react-icons/go";
@@ -17,6 +26,13 @@ function Navbar() {
     "Philippines",
     "Vietnam",
     "Myanmar",
+
+
+
+
+
+
+
     "Cambodia",
     "Laos",
     "Papua New Guinea",
@@ -24,10 +40,25 @@ function Navbar() {
 
   const toggleMenu = () => {
     setIsShowMenu((prev) => !prev);
+
+
+
+
+
+
+
+
+
   };
 
   return (
     <div className="flex  text-white py-2 items-center flex-col bg-slate-400">
+
+
+
+
+
+
       <div className="flex items-center w-[95%] justify-between ">
         <div className="">Login | Register</div>
 
@@ -49,11 +80,26 @@ function Navbar() {
         </div>
       </div>
 
+
+
+
+
+
+
+
       <div className="flex w-[94%] py-3  justify-between">
         <div className="flex items-center ">
           <IoEarthSharp size={25} />
           <select className="text-black border rounded-md ml-1 ">
             {Countries.map((item, i) => (
+
+
+
+
+
+
+
+
               <option key={i}>{item}</option>
             ))}
           </select>
@@ -67,11 +113,24 @@ function Navbar() {
             <p>Insights</p>
             <p>Contact Us</p>
             <p>Blog</p>
+
+
+
+
+
+
+
+
           </div>
           <div className="lg:hidden">
             <div className="flex gap-2 items-center" onClick={toggleMenu}>
               <span>Menu</span>
               <GoTriangleDown />
+
+
+
+
+
             </div>
             <div
               className={` transition max-h-0 overflow-hidden ${
@@ -81,6 +140,13 @@ function Navbar() {
               <p>Home</p>
               <p>Job Seekers</p>
               <p>Employers</p>
+
+
+
+
+
+
+
               <p>Insights</p>
               <p>Contact Us</p>
               <p>Blog</p>
@@ -89,6 +155,11 @@ function Navbar() {
         </div>
       </div>
     </div>
+
+
+
+
+
   );
 }
 
