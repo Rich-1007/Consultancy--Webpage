@@ -16,7 +16,7 @@ function Footer() {
             <p>Accountant</p>
             <p>Architect</p>
             <p>BPO / Telecaller</p>
-        
+
             <p>Tech Support</p>
             <p>Content Writer</p>
             <p>Fashion Designer</p>
@@ -27,7 +27,7 @@ function Footer() {
             <p>Sales Executive</p>
             <p>Management Trainee</p>
             <p>Design / Animation</p>
-      
+
             <p>Teacher / Trainer</p>
             <p>Delivery Executive</p>
             <p>Chef / Cook</p>
@@ -43,7 +43,7 @@ function Footer() {
             <p>Bangalore</p>
             <p>Chennai</p>
             <p>Delhi</p>
-    
+
             <p>Hyderabad</p>
             <p>Kolkata</p>
             <p>Mumbai</p>
@@ -51,7 +51,7 @@ function Footer() {
             <p>Noida</p>
             <p>Gurgaon</p>
             <p>Chandigarh</p>
-      
+
             <p>Panaji</p>
             <p>Patna</p>
             <p>Bhopal</p>
@@ -59,10 +59,6 @@ function Footer() {
             <p>Bhubaneshwar</p>
             <p>Pondicherry</p>
             <p>Mohali</p>
-
-
-
-
 
             <p>Jaipur</p>
             <p>More Cities</p>
@@ -73,11 +69,6 @@ function Footer() {
       <div className="bg-gray-200 pt-8 flex justify-evenly">
         <div>
           <p className="font-semibold">Information</p>
-
-
-
-
-
 
           <div className="font-extralight">
             <p>Contact Us</p>
@@ -93,11 +84,6 @@ function Footer() {
           <div className="flex pt-1 gap-1 ">
             <GrFacebookOption size={26} />
 
-
-
-
-
-
             <FaLinkedinIn size={26} />
             <FaYoutube size={26} />
           </div>
@@ -106,13 +92,6 @@ function Footer() {
             Easy Job access on the go
             <IoLogoGooglePlaystore size={55} />
           </div>
-
-
-
-
-
-
-
         </div>
       </div>
 
@@ -120,25 +99,11 @@ function Footer() {
         <p>Copyright © 2024 TeamLease. All rights reserved</p>
         <p>
           ISO 27001 Information Technology Security Management System. Certified
-
-
-
-
-
-
           by British Standards
         </p>
         <p>Terms & Conditions|Privacy Policy|Sitemap</p>
       </div>
     </div>
-
-
-
-
-
-
-
-
   );
 }
 
