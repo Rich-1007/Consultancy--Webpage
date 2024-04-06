@@ -8,11 +8,11 @@ import { FaLinkedinIn } from "react-icons/fa";
 function Footer() {
   return (
     <div>
-      <div className="flex gap-12 pl-3 pr-3 bg-gray-200 justify-evenly">
+      <div className="flex gap-10 pl-3 pr-3 bg-gray-300 justify-evenly py-6 ">
         <div className="">
           <p className="font-bold text-lg">Jobs By Roles</p>
 
-          <div className="flex flex-wrap gap-x-4 font-extralight">
+          <div className="flex flex-wrap gap-x-4 font-extralight ">
             <p>Accountant</p>
             <p>Architect</p>
             <p>BPO / Telecaller</p>
@@ -66,7 +66,7 @@ function Footer() {
         </div>
       </div>
 
-      <div className="bg-gray-200 pt-8 flex justify-evenly">
+      <div className="bg-gray-200 py-6 flex justify-evenly ">
         <div>
           <p className="font-semibold">Information</p>
 
@@ -88,20 +88,20 @@ function Footer() {
             <FaYoutube size={26} />
           </div>
 
-          <div className="font-mono pt-6">
+          <div className="font-mono pt-6 ">
             Easy Job access on the go
             <IoLogoGooglePlaystore size={55} />
           </div>
         </div>
       </div>
 
-      <div className="px-2 bg-gray-700 text-gray-400 flex flex-col items-center font-light text-xs">
+      <div className="px-4 text-center pt-6 bg-gray-700 text-gray-400 flex flex-col items-center font-light text-xs">
         <p>Copyright © 2024 TeamLease. All rights reserved</p>
         <p>
           ISO 27001 Information Technology Security Management System. Certified
           by British Standards
         </p>
-        <p>Terms & Conditions|Privacy Policy|Sitemap</p>
+        <p className="py-4">Terms & Conditions|Privacy Policy|Sitemap</p>
       </div>
     </div>
   );
